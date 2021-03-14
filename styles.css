@@ -9,3 +9,15 @@ strong {
 h1, h2, h3, h4 {
   font-family: 'Cinzel Decorative', cursive
 }
+
+h1 {
+  text-align: center;
+}
+
+h1 span:first-of-type {
+  font-size: 0.9em;
+}
+
+h1 span:last-of-type {
+  font-size: 1.5em;
+}
