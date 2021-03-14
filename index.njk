@@ -18,14 +18,16 @@ layout: default.njk
     <header>
       <h2>Tags</h2>
     </header>
-    <ol>
-    {% for row in gameTags %}
-      <li>
-        <strong>{{ row.Name.trim() }}:</strong>
-        <span>{{ row.Description.trim() }}</span>
-      </li>
-    {% endfor %}
-  </ol>
+    <div class="scrollable">
+      <ol>
+      {% for row in gameTags %}
+        <li>
+          <strong>{{ row.Name.trim() }}:</strong>
+          <span>{{ row.Description.trim() }}</span>
+        </li>
+      {% endfor %}
+      </ol>
+    </div>
   </section>
 </main>
 
