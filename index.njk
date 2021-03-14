@@ -1,0 +1,8 @@
+---
+layout: default.njk
+---
+<h1>Test</h1>
+
+{% for tag in gameTags %}
+<p>{{ tag.Name }}: {{ tag.Description }}</p>
+{% endfor %}
