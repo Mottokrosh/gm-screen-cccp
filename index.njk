@@ -2,18 +2,12 @@
 layout: default.njk
 ---
 <h1>
+  <img src="img/needle_thread.png" width="240" height="200" alt="">
   <span>Capes and Cloaks and Cowls and a Park</span>
   <span>Digital GM Screen</span>
 </h1>
 
 <main>
-  {# <section>
-    <div id="tags" class="autocomplete">
-      <input class="autocomplete-input">
-      <ul class="autocomplete-result-list"></ul>
-    </div>
-  </section> #}
-
   <section>
     <header>
       <h2>Tags</h2>
@@ -30,24 +24,3 @@ layout: default.njk
     </div>
   </section>
 </main>
-
-<script>
-  // const tags = [
-  // {% for row in gameTags %}
-  // {
-  //   name: '{{ row.Name.trim() }}',
-  //   description: '{{ row.Description.trim() }}',
-  // },
-  // {% endfor %}
-  // ];
-  //
-  // new Autocomplete('#tags', {
-  //   search: input => {
-  //     if (input.length < 1) { return [] }
-  //     return tags.filter(tag => {
-  //       return tag.name.toLowerCase()
-  //         .startsWith(input.toLowerCase())
-  //     })
-  //   }
-  // });
-</script>
